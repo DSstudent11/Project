@@ -1,5 +1,7 @@
 This folder contain a script for cleaning data project for the "Getting and Cleaning Data" course. Data was uploaded to the project's individual page in the Coursera.
+
 The flow of the sript is as follows:
+
 1. Read and merge X test and train data into a single dataset using rbind.
 2. Read features file and set up a second row of this table as a variable names for the earlier merged data.
 3. Select variable having "means" and "std" in names from the newly formed dataset
